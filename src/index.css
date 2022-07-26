@@ -12,6 +12,7 @@
   }
 }
 body {
+  /* overflow: hidden; */
   background: #f0f2f0; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -19,4 +20,15 @@ body {
     #000c40
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #f0f2f0, #000c40);
+  /* cursor: none; */
+}
+#cursor{
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  /* transition: 0.1s; */
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
 }
