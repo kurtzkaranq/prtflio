@@ -1,13 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
-@layer base{
-    body{
-        @apply font-[Raleway]
-    }
-    li{
-        @apply px-4;
-        @apply cursor-pointer
-    }
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+@layer base {
+  body {
+    @apply font-[Raleway];
+  }
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+  }
+}
+body {
+  background: #f0f2f0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f0f2f0,
+    #000c40
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f0f2f0, #000c40);
 }
